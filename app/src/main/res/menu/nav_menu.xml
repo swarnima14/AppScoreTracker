@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/g1">
+        <item
+            android:title="HOME"
+            android:id="@+id/home">
+            <menu>
+                <item
+                    android:title="Account"
+
+                    android:id="@+id/nav_account"
+                    />
+
+                <item
+                    android:title="Wallet"
+
+                    android:id="@+id/UserWallet"/>
+
+                <item
+                    android:title="Rules"
+
+                    android:id="@+id/nav_rules"
+                    />
+
+
+
+
+                <item
+                    android:title="Log Out"
+
+                    android:id="@+id/nav_signout"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/gnew">
+        <item android:title="POLICIES"
+            android:id="@+id/details">
+            <menu>
+
+                <item android:title="About Us"
+
+                    android:id="@+id/about"/>
+                <item
+                    android:title="Terms and Conditions"
+
+                    android:id="@+id/terms"/>
+                <item
+                    android:title="Privacy Policy"
+
+                    android:id="@+id/Privacy"/>
+                <item android:title="Refund Policy"
+
+                    android:id="@+id/refund"/>
+
+            </menu>
+
+        </item>
+    </group>
+    <group
+        android:id="@+id/g2">
+        <item
+            android:title="COMMUNICATION"
+            android:id="@+id/communicate">
+            <menu>
+                <item
+                    android:title="Share"
+
+                    android:id="@+id/share"/>
+                <item
+                    android:title="Contact us"
+
+                    android:id="@+id/mail"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
